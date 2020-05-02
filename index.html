@@ -3,59 +3,177 @@
   <head>
     <title>Parrainage ING | Jusqu'à 160€ offerts </title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="ing.js"></script>
+    <!-- Hotjar Tracking Code for www.parrainageing.fr -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1716022,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
   </head>
   <body>
 
-    <! ––  Header –– >
-    <header>
-      <a href="https://www.parrainageing.fr" class="Home">PARRAINAGE ING</a>
-      <a href="https://www.parrainageing.fr" class="nav">Parrainage ING</a>
-      <a href="https://www.parrainageing.fr/code-promo" class="nav"> Code Promo </a>
-      <a href="https://www.parrainageing.fr/faq-parrainage-ing" class="nav">FAQ Parrainage ING </a>
-    </header>
-
-    <! ––  Punch section –– >
-    <section class="Punch">
-      <div class="punch text">
-        <p>PARRAINAGE ING <br/> JUSQU’A 160€ OFFERTS POUR L’OUVERTURE DE COMPTE ING</p>
-        <p>Code Promo :<br/><strong>YKCTAHY</strong></p>
-        <button type="button" name="copy">Copy Code</button>
+    <!-- Header -->
+    <div class="row" id="header">
+      <div class="col-6">
+        <a href="./index.html" id="home">PARRAINAGE ING</a>
       </div>
-      <div class="peggy img">
+      <div class="col-6 d-flex justify-content-around" id="nav">
+        <a href="./index.html" class="link_nav" id="here"> Parrainage ING</a>
+        <a href="./code-parrainage-ing.html" class="link_nav"> Code Promo </a>
+        <a href="./faq-parrainage-ing.html" class="link_nav">FAQ Parrainage ING </a>
+      </div>
+    </div>
+
+    <!-- Punch section -->
+    <div class="row" id="punch">
+
+      <div class="col-lg-1 col-sm-12" id="punch_text"></div>
+      <div class="col-lg-5 col-sm-12" id="punch_text grande_div" onclick="copy()">
+
+        <br/><br/>
+        <h3>PARRAINAGE ING </h3><br/><br/>
+        <h4>JUSQU’A 160€ OFFERTS POUR <br/>L’OUVERTURE D'UN COMPTE ING</h4>
+        <br/><br/><br/>
+        <h1>CODE PARRAINAGE:<br/></h1>
+        <span><strong>YKCTAHY</strong></span>
+        <img src="./copier.png" alt="Copier_code_parrainage_ING" id="copier" data-clipboard-text="YKCTAHY">
+        <br/>
+        <a href='http://www.ing.fr' id="lien_ing" target="_blank"> Accéder au site d'ING </a>
+
+      </div>
+
+      <div class="col-lg-6 col-sm-12" id="peggy img">
         <img src="./peggy.png" alt="Parrainage ING">
       </div>
-    </section>
+    </div>
 
-    <! ––  Steps section –– >
-    <section class="Steps">
-          <h2>COMMENT ÊTRE PARRAINÉ(E) DÈS AUJOURD’HUI ?</h2>
-          <p>4 ÉTAPES A SUIVRE</p>
+    <!--   Steps section -->
+    <div id="steps">
+      <h2 class="step_title">COMMENT ÊTRE PARRAINÉ(E) DÈS AUJOURD’HUI ?</h2>
+      <p class="step_title">4 ÉTAPES A SUIVRE</p>
 
-          <! ––  Steps –– >
-          <div class="step">
-            <h4>1<br/>ACCEDEZ À LA CRÉATION D'UN COMPTE ING</h4>
-            <p>Créez votre compte sur le <a href="https://subscribe.ing.fr/tx-opening/landing-page">site ING</a></p>
+      <!-- Steps -->
+      <div class="row d-flex d-flex justify-content-center">
+
+        <div class="col-lg-2 col-sm-10" id="step">
+          <h3>1</h3>
+          <p>_______</p>
+          <p>ACCEDEZ À LA CRÉATION D'UN COMPTE ING</p><br>
+          <p class="step_text">Créez votre compte sur le <a href="https://subscribe.ing.fr/tx-opening/landing-page" target="_blank">site ING</a></p>
+        </div>
+
+        <div class="col-lg-2 col-sm-10" id="step">
+          <h3>2</h3>
+          <p>_______</p>
+          <p>INTRODUISEZ LE CODE PARRAIN</p><br><br>
+          <p class="step_text">Introduisez le code parrain suivant <strong>YKCTAHY</strong></p>
+        </div>
+
+        <div class="col-lg-2 col-sm-10" id="step">
+          <h3>3</h3>
+          <p>_______</p>
+          <p>FINALISEZ LA CRÉATION DU COMPTE</p><br>
+          <p class="step_text">Terminez et activez votre compte sur ING</p>
+        </div>
+
+        <div class="col-lg-2 col-sm-10" id="step">
+          <h3>4</h3>
+          <p>_______</p>
+          <p>RECEVEZ VOTRE PRIME</p><br><br>
+          <p class="step_text">Recevez votre prime pouvant aller jusqu'à 160€</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!--   FAQ section -->
+    <div>
+
+          <h2 class="step_title">FAQ Parrainage banque ING</h2>
+
+          <h5 class="question">Est-ce que s’inscrire sur ING c’est vraiment gratuit ?</h5>
+          <p class="faq">Oui pas de soucis là dessus, l’ouverture d’un compte chez ING est 100% gratuite !
+            Pas de frais à l’ouverture de votre compte ni même lorsque vous souhaitez le fermer et ce,
+            quelque soit votre niveau de revenu. Contrairement à toutes banques en ligne dans le monde
+            telles que BforBank, Hello Bank ou encore Fortuneo qui peuvent vous prélever certains frais,
+            ING n’en prélève aucun ! C’est une des raisons qui font qu’aujourd’hui ING est devenue ma banque
+            principale.</p>
+
+            <h5 class="question">Devez-vous obligatoirement changer de banque ?</h5>
+            <p class="faq">Absolument pas ! Il vous est possible d’avoir autant de comptes en banque que vous le souhaitez !
+            Vous pouvez tout à fait conserver votre compte dans votre banque actuelle comme BNP Paribas, Société
+            Générale, Crédit Agricole etc… et ouvrir un compte sur le site ING ce jour et profiter de mon offre
+            et devenir votre parrain.</p>
+
+            <h5 class="question">Devez-vous domicilier vos revenus chez ING ?</h5>
+            <p class="faq">Aucune obligation de domicilier vos revenus chez ING. Vous pouvez profiter de cette offre de parrainage
+              simplement en ouvrant votre compte.</p>
+
+              <button type="button" name="faq-button" class="button_body rounded-pill" onclick="location.href='./faq-parrainage-ing.html'" >Voir toutes les FAQs</button>
+
+
+    </div>
+
+    <!--   Avis section -->
+    <div class="">
+
+          <div>
+
+            <h2 class="step_title">AVIS PARRAINAGE</h2>
+            <p class="avis_punch">J’ai déjà réalisé des demandes de parrainage bancaire ING pour plus d’une centaine de personnes aujourd’hui.
+             J’ai ainsi pu récupérer les témoignages de plusieurs filleuls chez ING que vous pouvez retrouver ci-dessous.</p>
+
+         </div>
+
+          <div class="row d-flex d-flex justify-content-between" id="img_avis">
+               <div class="col-lg-3 col-sm-10">
+                 <img src="./parrain_1.jpg" alt="Parrainage_ING_1" class="img_avis">
+                 <h4 class="nom_filleul">Gustave O.</h4>
+                 <p>J’étais très curieux lorsque j’ai découvert l’offre de parrainage ING. Une fois le premier contact établi
+                   par mail, le reste s’est fait tout seul et on s’est tout de suite bien trouvés ! Merci pour cette offre !</p>
+                 <img src="" alt="">
+               </div>
+
+               <div class="col-lg-3 col-sm-10">
+                 <img src="./parrain_2.jpg" alt="Parrainage_ING_2" class="img_avis">
+                 <h4 class="nom_filleul">Clothilde K.</h4>
+                 <p>Si vous lisez cet avis pour vous convaincre que l’offre est sérieuse très honnêtement vous pouvez déjà faire
+                   votre demande ! Franchement ça s’est super bien passé pour moi ! Merci !</p>
+                 <img src="" alt="">
+               </div>
+
+               <div class="col-lg-3 col-sm-10">
+                 <img src="./parrain_3.jpg" alt="Parrainage_ING_3" class="img_avis">
+                 <h4 class="nom_filleul">Valérie M.</h4>
+                 <p>Grâce à l’offre de parrainage ING proposée au moment ou j’ai fait ma demande de parrainage je n’ai pas reçu 130€
+                   mais bien 160€ !</p>
+                 <img src="" alt="">
+               </div>
           </div>
 
-          <div class="step">
-            <h4>2<br/>INTRODUISEZ LE CODE PARRAIN</h4>
-            <p>Introduisez le code parrain suivant <<strong>YKCTAHY</strong></p>
-          </div>
-
-          <div class="step">
-            <h4>3<br/>FINALISEZ LA CRÉATION DU COMPTE</h4>
-            <p>Terminez et activez votre compte sur ING</p>
-          </div>
-
-          <div class="step">
-            <h4>4<br/>RECEVEZ VOTRE PRIME</h4>
-            <p>Recevez votre prime pouvant aller jusqu'à 160€</p>
-          </div>
-
-    </section>
+    </div>
 
 
+    <!-- Code fin page -->
+    <div class="row final_code">
+      <span class="code-punch">CODE DE PARRAINAGE <strong>YKCTAHY</strong></span>
+      <img src="./copier.png" alt="Copier_code_parrainage_ING" class="copier_2">
+      <button type="button" class="button_body_endpage rounded-pill" onclick=" window.open('http://www.ing.fr', '_blank')">
+          INSCRIVEZ-VOUS MAINTENANT
+      </button>
+    </div>
 
 
+    <!-- footer -->
+    <footer>
+      <p id="footer"> © Site Parrainage ING</p>
+    </footer>
   </body>
 </html>

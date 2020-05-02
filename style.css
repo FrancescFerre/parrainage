@@ -1,4 +1,211 @@
-#step{
-  border: 10px;
-  border-color: black;
+body {
+  font-family: arial;
+  letter-spacing: 1px;
+  margin: 20%;
+}
+
+p {
+  font-weight: 300;
+}
+
+
+.grande_div {
+  border: 10px solid black;
+  margin: 1% 3%;
+}
+
+
+/* Header */
+
+#header {
+  height: 70px;
+  margin-top: 2%;
+}
+
+
+#home {
+  font-size: 30px;
+  font-weight: 400;
+  color: #F18653;
+  margin-left: 20%;
+}
+
+#home:hover {
+  text-decoration: none;
+}
+
+#nav {
+  margin-top: 1%;
+}
+
+.link_nav {
+  color: black;
+  font-weight: 300;
+}
+
+.link_nav:hover {
+  color: #F18653;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#here {
+  color: #F18653;
+}
+
+/* Punch line */
+#punch {
+  background-color: #F18653;
+  color: white;
+}
+
+span {
+  font-size: 40px;
+  color: white;
+}
+
+#copier {
+  width: 5%;
+  vertical-align: top;
+}
+
+
+
+/* Steps section */
+#steps {
+  padding: 60px;
+}
+
+.step_title {
+  text-align:center;
+  vertical-align: middle;
+  color: #FF6600;
+  font-weight: normal;
+  margin-top: 3%;
+}
+
+#step {
+  text-align: center;
+  background-color: #F18653;
+  height: 300px;
+  padding: 20px;
+  color: white;
+  margin: 15px;
+}
+
+.step_text {
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+
+
+/* FAQ Section  */
+
+.faq {
+  margin: 0% 10%;
+}
+
+.question {
+  margin: 3% 10% 0%;
+  color: #F18653;
+  font-weight: 400;
+}
+
+.button_body {
+  background: none;
+  border: 2px solid #F18653;
+  color: #F18653;
+  font-size: 14px;
+  padding: 0.4%;
+  width: 20%;
+  margin: 2% 40%;
+}
+
+.button_body:hover {
+  background-color: #F18653;
+  border: 2px solid #F18653;
+  color: white;
+  font-size: 14px;
+  padding: 0.4%;
+  width: 20%;
+  margin: 2% 40%;
+}
+
+.page_faq {
+  margin: 0% 8% 5%;
+}
+
+
+
+
+
+/* Avis section */
+.avis_punch {
+  margin: 2% 25%;
+  text-align: center;
+  color: #F18653;
+  font-weight: 400;
+}
+
+#img_avis {
+  background-image: url(./canape.png);
+  padding: 5% 5% 1%;
+}
+
+.img_avis {
+  border-radius: 50%;
+  width: 60%;
+  height: 180px;
+  margin: 5% 20%;
+}
+
+.nom_filleul {
+  color:  #F18653;
+  font-weight: 200;
+  text-align: center;
+  margin: 10% 5%;
+}
+
+
+
+
+/* Section fin code*/
+
+.final_code {
+  background-color: #F18653;
+  padding: 2% 25%;
+}
+
+.copier_2 {
+  margin-left: 1%;
+  width: 4%;
+  height: 3%;
+  vertical-align: top;
+}
+
+.button_body_endpage {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  font-size: 18px;
+  padding: 1.5%;
+  width: 50%;
+  margin: 4% 25% 1%;
+}
+
+.button_body_endpage:hover {
+  background-color: white;
+  border: 2px solid #F18653;
+  color: #F18653;
+}
+
+
+
+
+/* footer */
+
+#footer {
+  margin: 4% 5%;
+  font-size: 20px;
 }
